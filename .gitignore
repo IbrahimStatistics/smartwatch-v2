@@ -1,0 +1,32 @@
+# virtual environment (lives at Code/.venv) -- machine-specific, never commit
+Code/.venv/
+
+# python bytecode / caches (these patterns match at any level)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# v1 lesson: VS Code temp runner files were committed
+tempCodeRunnerFile.py
+
+# secrets / local config -- .env.example is the template, .env stays local
+code/.venv/
+
+# v1 lesson: the Mosquitto persistence db was committed
+*.db
+*.sqlite3
+
+# logs
+*.log
+
+# frontend (Step 7)
+node_modules/
+dist/
