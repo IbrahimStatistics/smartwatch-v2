@@ -7,9 +7,6 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# backend folder
-Backend/
-
 # editors / OS
 .idea/
 .vscode/
