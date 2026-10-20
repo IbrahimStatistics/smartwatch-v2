@@ -1,0 +1,32 @@
+# virtual environment (nested inside Code/)
+Code/.venv/
+.venv/
+
+# environment variables & secrets (matches anywhere in the project)
+**/.env
+.env
+
+# python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# v1 lessons
+tempCodeRunnerFile.py
+*.db
+*.sqlite3
+
+# logs
+*.log
+
+# frontend
+node_modules/
+dist/
